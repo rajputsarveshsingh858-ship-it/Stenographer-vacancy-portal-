@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stenographer Vacancy Portal | Latest Steno Jobs</title>
+<meta name="description" content="Latest Stenographer vacancies, notifications, eligibility, salary, age limit, syllabus, admit cards and apply links.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">⌨️ Steno<span>Vacancy</span></a>
+    <nav>
+      <a href="#latest">Latest Vacancies</a>
+      <a href="#categories">Categories</a>
+      <a href="#youtube">YouTube</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="badge">UPDATED DAILY</span>
+    <h1>Latest Stenographer Vacancies</h1>
+    <p>Central & State Government jobs, High Courts, PSUs and other departments — vacancy details in one place.</p>
+    <div class="search"><input id="search" placeholder="Search Stenographer, High Court, SSC, department..."><button onclick="filterJobs()">Search</button></div>
+  </div>
+</section>
+
+<main class="container">
+  <section id="latest">
+    <div class="section-head"><h2>Latest Vacancies</h2><span id="count"></span></div>
+    <div id="jobs" class="grid"></div>
+  </section>
+
+  <section id="categories">
+    <h2>Browse by Category</h2>
+    <div class="categories">
+      <button onclick="category('All')">All Jobs</button>
+      <button onclick="category('Central Government')">Central Govt</button>
+      <button onclick="category('High Court')">High Courts</button>
+      <button onclick="category('PSU')">PSU</button>
+      <button onclick="category('State Government')">State Govt</button>
+      <button onclick="category('Admit Card')">Admit Card</button>
+    </div>
+  </section>
+
+  <section id="youtube" class="youtube">
+    <div><h2>Detailed Vacancy Updates on YouTube</h2><p>Notification, eligibility, salary and application updates explained on our channel.</p></div>
+    <a class="btn" href="https://www.youtube.com/" target="_blank" rel="noopener">Visit YouTube Channel</a>
+  </section>
+</main>
+
+<footer><div class="container"><strong>StenoVacancy</strong><p>For educational and informational purposes. Always verify details from the official notification before applying.</p><small>© 2026 StenoVacancy</small></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
